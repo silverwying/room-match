@@ -33,54 +33,63 @@
 
 ## 📌 Sobre o Projeto
 
-Encontrar uma moradia acessível próxima ao local de estudo ou trabalho pode ser um desafio para jovens que chegam à Região Metropolitana de Campinas, principalmente estudantes, estagiários e trabalhadores em início de carreira.
+Encontrar uma moradia acessível próxima ao local de estudo ou trabalho é um desafio para jovens que chegam à Região Metropolitana de Campinas (RMC) — especialmente estudantes, estagiários e trabalhadores em início de carreira sem renda para arcar com um imóvel sozinhos.
 
-Além do preço do aluguel, dividir uma residência envolve fatores como **hábitos, rotina, estilo de vida, localização, custos adicionais e compatibilidade entre moradores**.
+Além do valor do aluguel, dividir uma residência envolve fatores como **hábitos, rotina, estilo de vida, localização, custos adicionais e compatibilidade entre moradores**. Hoje essa busca acontece de forma fragmentada — grupos de WhatsApp, indicações informais, cálculos manuais de rota — o que gera perda de tempo, insegurança contra anúncios falsos e desistências de vagas de estudo por falta de moradia compatível.
 
-O **RoomMatch** é uma plataforma web que busca conectar pessoas interessadas em **quartos, kitnets e moradias compartilhadas** com usuários que possuam perfis de convivência compatíveis.
-
-Diferentemente de plataformas tradicionais de aluguel, o RoomMatch considera simultaneamente três dimensões principais:
+O **RoomMatch** é uma plataforma web que conecta pessoas interessadas em **quartos, kitnets e moradias compartilhadas** com usuários de perfis de convivência compatíveis, combinando três dimensões ao mesmo tempo:
 
 - 🤝 **Afinidade de convivência**
 - 💰 **Custo total e transparente da moradia**
 - 🗺️ **Tempo de deslocamento até o local de estudo ou trabalho**
 
-Além disso, a plataforma pretende orientar os usuários sobre **programas de auxílio-moradia e permanência estudantil** disponíveis.
+A plataforma também pretende orientar os usuários sobre **programas de auxílio-moradia e permanência estudantil** disponíveis, como recurso complementar ao MVP.
 
 ---
 
-## 🎯 Público-Alvo
+## 🎯 Público-Alvo e Setor
 
 O RoomMatch é direcionado principalmente a:
 
-- 🎓 Estudantes universitários
-- 💼 Estagiários
-- 👩‍💻 Jovens trabalhadores
-- 🏠 Pessoas procurando moradia compartilhada
+- 🎓 Estudantes universitários sem renda própria para morar sozinhos
+- 💼 Estagiários e jovens trabalhadores recém-chegados à região
+- 🏠 Pessoas procurando moradia compartilhada compatível com seu estilo de vida
 - 🔑 Moradores ou proprietários com quartos e vagas disponíveis
 
-O projeto tem como foco inicial a **Região Metropolitana de Campinas (RMC)**.
+| Dimensão | Definição |
+|---|---|
+| 📍 Recorte geográfico | Região Metropolitana de Campinas (RMC) |
+| 🏛️ Setor de impacto | **Terceiro Setor** — iniciativa de caráter social e extensionista |
+| ⚠️ Problema central | Dificuldade de jovens estudantes e trabalhadores encontrarem moradia compartilhada com estilo de vida compatível na RMC |
+| 😟 Consequência principal | Desistência de vaga na universidade por falta de moradia na região, ou aceitação de moradia incompatível por necessidade |
 
 ---
 
 ## 🌎 ODS — Impacto Sustentável
 
-O projeto está diretamente relacionado ao:
+O projeto está associado a três Objetivos de Desenvolvimento Sustentável:
 
-### 🏙️ ODS 11 — Cidades e Comunidades Sustentáveis
+| ODS | Foco | Relação com o RoomMatch |
+|---|---|---|
+| 🏙️ **ODS 11** — Cidades e Comunidades Sustentáveis | Meta 11.1: acesso de todos à habitação segura, adequada e a preço acessível | Eixo principal do projeto: aproxima pessoas de opções de moradia mais acessíveis e bem localizadas |
+| ⚖️ **ODS 10** — Redução das Desigualdades | Inclusão social e econômica | Reduz barreiras de acesso à moradia para quem chega à RMC sem rede de contatos ou renda para morar sozinho |
+| 💚 **ODS 3** — Saúde e Bem-Estar | Bem-estar psicológico e segurança | Diminui a ansiedade e insegurança de morar com desconhecidos incompatíveis, por meio do matching de convivência |
 
-Mais especificamente à **Meta 11.1**, que busca:
+### Tipos de impacto gerado
 
-> Garantir o acesso de todos à habitação segura, adequada e a preço acessível.
+- 🤝 **Social** — facilita o acesso à moradia compartilhada e reduz o medo de golpes/incompatibilidade
+- 💰 **Econômico** — reduz custos por meio do compartilhamento de despesas com rateio transparente
+- 🎓 **Educacional** — apoia estudantes na busca por moradia e programas de permanência estudantil
 
-O RoomMatch contribui para essa meta ao aproximar pessoas que procuram opções de moradia de menor custo e facilitar a escolha de residências considerando também sua localização em relação aos locais de estudo e trabalho.
+---
 
-### Impactos esperados
+## 🧭 Entendimento do Problema (UX Research)
 
-- 🤝 **Social** — facilitar o acesso à moradia compartilhada
-- 💰 **Econômico** — reduzir custos por meio do compartilhamento de despesas
-- 🏙️ **Urbano** — considerar mobilidade e tempo de deslocamento na escolha da moradia
-- 🎓 **Educacional** — apoiar estudantes na busca por moradia e programas de permanência
+| Ferramenta | Principal achado |
+|---|---|
+| 🧩 **Matriz de Definição do Problema** | O problema afeta sobretudo estudantes sem renda para morar sozinhos e sem conhecimento prévio da região; a consequência mais grave é a desistência da vaga universitária por falta de moradia compatível |
+| ❤️ **Mapa de Empatia** | Usuário sente frustração e medo de golpes; ouve alertas de amigos sobre "perrengues" de moradia; vê anúncios desorganizados em grupos de WhatsApp/Facebook; sua maior dor é o processo fragmentado (um grupo pro imóvel, outro pro colega de quarto, outro app pra rota) |
+| 🔍 **SWOT** | Força: diferenciação por matching social + rateio com dados abertos (GTFS). Fraqueza: dependência de massa crítica de usuários para efeito de rede. Oportunidade: parcerias com faculdades e polos tecnológicos da RMC. Ameaça: necessidade de rigor no tratamento de dados pessoais (LGPD) |
 
 ---
 
@@ -104,126 +113,76 @@ Entre as tags disponíveis poderão estar:
 
 ### 💚 Matching por Afinidade — CardSwipe
 
-O sistema apresentará perfis e imóveis em uma interface de cards semelhante ao modelo de swipe.
+O sistema apresenta perfis e imóveis em uma interface de cards no modelo swipe, seguindo um **modelo figurativo com limiar mínimo**:
 
-- ❤️ Curtir perfil/imóvel
-- ❌ Recusar perfil/imóvel
-- 📊 Percentual de afinidade
+- 📏 O usuário define sua própria régua de corte (ex.: mínimo de 70% de compatibilidade) para habilitar o envio/recebimento de mensagens
+- ⚡ O match **não depende de "dupla curtida"** — funciona como um indicador técnico de afinidade entre hábitos do perfil e as regras da vaga
+- 🚀 Ao atingir o limiar de compatibilidade **e** o teto orçamentário, o chat interno é liberado diretamente para contato
+- ❤️ / ❌ Curtir ou recusar perfil/imóvel
 - 🔎 Filtros por preferências de convivência
-- 🔔 Notificação em caso de match recíproco
 - 📜 Histórico de curtidas e matches
 - 🚫 Denúncia e bloqueio de perfis
 
-O percentual de compatibilidade será calculado considerando as **tags de convivência compartilhadas entre os usuários**.
+**Exemplo de simulação:** perfil com 85% de afinidade calculada, limiar do usuário em 70% (aprovado), tags em comum (Silêncio, Home Office, Pet Friendly) e orçamento dentro do limite → chat habilitado automaticamente.
 
 ---
 
 ### 🏠 Mural de Vagas e Imóveis
 
-Moradores atuais e proprietários poderão publicar:
-
-- Quartos
-- Kitnets
-- Vagas em repúblicas
-- Vagas em casas compartilhadas
-
-Cada anúncio poderá apresentar:
+Moradores atuais e proprietários poderão publicar quartos, kitnets, vagas em repúblicas e casas compartilhadas. Cada anúncio segue o princípio de **transparência total de custos** (inspirado no Booking.com):
 
 - 📸 Fotos do imóvel
-- 💵 Valor do aluguel
-- 🏢 Condomínio
-- 🧾 IPTU
-- 💡 Estimativa de contas
+- 💵 Aluguel + 🏢 Condomínio + 🧾 IPTU + 💡 Estimativa de contas — detalhados diretamente no card, sem taxas ocultas
 - 👥 Perfil dos moradores atuais
 - 🏷️ Tags de convivência
 - 📍 Localização
+- 📊 Badge de percentual de afinidade
 
-A plataforma também permitirá:
-
-- Busca por bairro
-- Filtro por preço
-- Filtro por tipo de imóvel
-- Filtro por tags
-- Favoritar anúncios
-- Comparar até **3 imóveis lado a lado**
+A plataforma também permite: busca por bairro, filtro por preço/tipo/tags, favoritar anúncios e comparar até **3 imóveis lado a lado** (grade multicritério: afinidade, orçamento e tempo de rota).
 
 ---
 
-### 🗺️ Mobilidade Urbana
+### 🗺️ Mobilidade Urbana (Roteirizador GTFS)
 
-Um dos diferenciais do RoomMatch será considerar o deslocamento entre a moradia e os destinos frequentes do usuário.
+Um dos principais diferenciais do RoomMatch é considerar o deslocamento entre a moradia e os destinos frequentes do usuário (faculdade, trabalho, curso, estágio), com **cálculo automático de tempo e rotas de transporte público ou a pé**.
 
-O usuário poderá informar locais como:
-
-- 🎓 Faculdade
-- 💼 Trabalho
-- 📚 Curso
-- 🏢 Estágio
-
-A plataforma poderá apresentar:
-
-- 🚶 Trajeto a pé
-- 🚲 Trajeto de bicicleta
-- 🚌 Transporte público
-- 📏 Distância
-- ⏱️ Tempo estimado de deslocamento
-- 🗺️ Visualização do trajeto em mapa
-
-A proposta prevê integração com dados de mobilidade da **EMDEC**, **EMTU** e **OpenStreetMap**.
+- 🚶 Trajeto a pé · 🚌 Transporte público · 📏 Distância · ⏱️ Tempo estimado · 🗺️ Visualização em mapa
+- Integração com dados públicos abertos **GTFS** da **EMDEC** e **EMTU**
+- Meta de desempenho: cálculo de rota em até 5 segundos, com cache de rotas frequentes
 
 ---
 
-### 🧮 Simulador de Auxílios Habitacionais
+### 💬 Chat & Comparador
 
-O RoomMatch também pretende auxiliar usuários a identificar programas de apoio habitacional ou permanência estudantil.
+Após o match ou interesse em um imóvel, os usuários utilizam um sistema interno de comunicação:
 
-A plataforma poderá:
+- 💬 Chat direto habilitado automaticamente ao atingir o limiar de compatibilidade
+- 🔔 Notificações de novas mensagens e novos matches
+- 🏠 Atualizações sobre anúncios favoritados
+- 📱 Compartilhamento de telefone/WhatsApp mediante consentimento mútuo
+- ⚖️ Tabela comparativa de até 3 anúncios favoritados (preço total, tempo de rota, tags em comum)
 
-- Cruzar renda declarada com critérios socioeconômicos
-- Identificar programas potencialmente compatíveis
-- Exibir informações sobre cada programa
-- Direcionar o usuário para a fonte oficial
-- Recalcular a elegibilidade após atualização dos dados
+---
+
+### 🧮 Simulador de Auxílios Habitacionais — *Bônus Futuro (Pós-MVP)*
+
+> Funcionalidade reservada para expansão após a entrega do MVP essencial.
+
+O RoomMatch pretende cruzar dados socioeconômicos com bolsas de permanência e critérios de programas de apoio habitacional, exibindo informações e direcionando o usuário à fonte oficial.
 
 > ⚠️ A simulação terá caráter exclusivamente orientativo e não substituirá a análise oficial realizada pelos órgãos responsáveis.
 
 ---
 
-### 💬 Comunicação entre Usuários
-
-Após um match ou interesse em um imóvel, os usuários poderão utilizar um sistema interno de comunicação.
-
-- 💬 Chat entre usuários
-- 🔔 Notificações de novas mensagens
-- 💚 Notificações de novos matches
-- 🏠 Atualizações sobre anúncios favoritados
-- 📱 Compartilhamento de telefone/WhatsApp mediante consentimento mútuo
-
----
-
 ### 🛡️ Administração e Moderação
 
-A plataforma contará com recursos administrativos para ajudar na segurança da comunidade.
-
-- Remoção de perfis inadequados
-- Remoção de anúncios denunciados
-- Moderação de conteúdo
-- Registro de ações administrativas
-- Indicadores de uso da plataforma
-
-Entre os indicadores previstos:
-
-- Número de matches
-- Quantidade de anúncios ativos
-- Bairros com maior demanda
+- Remoção de perfis inadequados e anúncios denunciados
+- Moderação de conteúdo e registro de ações administrativas
+- Indicadores de uso: número de matches, anúncios ativos, bairros com maior demanda
 
 ---
 
 ## 🧠 Como funciona o Matching
-
-O RoomMatch não pretende recomendar uma moradia considerando apenas o menor preço.
-
-A proposta é combinar diferentes fatores:
 
 ```text
                     ┌─────────────────────┐
@@ -233,65 +192,82 @@ A proposta é combinar diferentes fatores:
              ┌─────────────────┼─────────────────┐
              │                 │                 │
              ▼                 ▼                 ▼
-      🤝 Convivência       💰 Orçamento      🗺️ Mobilidade
+      🤝 Convivência       💰 Orçamento      🗺️ Mobilidade (GTFS)
              │                 │                 │
              └─────────────────┼─────────────────┘
                                ▼
-                    ┌─────────────────────┐
-                    │ Ranking de Matches  │
-                    └─────────────────────┘
-                               │
+                 ┌───────────────────────────┐
+                 │ % de Afinidade Calculada  │
+                 │  vs. Limiar do Usuário    │
+                 └─────────────┬─────────────┘
                                ▼
-                  🏠 Pessoas e imóveis mais
-                     compatíveis primeiro
+                  🏠 Chat liberado + ranking de
+                     matches mais compatíveis
 ```
 
-Dessa forma, uma opção mais barata não será necessariamente considerada a melhor caso possua baixa compatibilidade de convivência ou um deslocamento muito elevado.
+Uma opção mais barata não é necessariamente a melhor caso tenha baixa compatibilidade de convivência ou deslocamento muito elevado.
 
 ---
 
-## 🖥️ Telas Previstas
+## 🖥️ Escopo do MVP vs. Roadmap Futuro
 
-O sitemap inicial da plataforma prevê **10 telas principais**:
-
-| # | Tela | Objetivo |
+| Módulo / Funcionalidade | Classificação | Detalhamento |
 |---|---|---|
-| 1 | 👋 Onboarding e Cadastro | Criar a conta e configurar o perfil |
-| 2 | 💚 Home / CardSwipe | Visualizar e avaliar matches |
-| 3 | 🔎 Filtros Avançados | Refinar a busca por preferências |
-| 4 | 🏠 Detalhe do Imóvel | Consultar informações completas |
-| 5 | ⚖️ Comparar Imóveis | Comparar até três anúncios |
-| 6 | 🗺️ Rota e Mobilidade | Visualizar deslocamentos |
-| 7 | 🧮 Simulador de Auxílios | Consultar possíveis benefícios |
-| 8 | 💬 Matches e Chat | Conversar com outros usuários |
-| 9 | 👤 Perfil do Usuário | Editar dados e preferências |
-| 10 | 🛡️ Painel Administrativo | Moderação e indicadores |
+| Matching por Limiar de Compatibilidade | 🟢 **MVP Essencial** | Algoritmo de % de afinidade por tags de convivência e liberação direta de mensagens |
+| Mural de Vagas & Rateio Transparente | 🟢 **MVP Essencial** | Exibição aberta de aluguel + condomínio + IPTU + estimativa de contas, sem taxas ocultas |
+| Roteirizador de Mobilidade Urbana (GTFS) | 🟢 **MVP Essencial** | Cálculo de tempo até o destino usando dados públicos GTFS (EMDEC/EMTU) |
+| Chat Interno & Comparador Lado a Lado | 🟢 **MVP Essencial** | Troca de mensagens diretas e tabela comparativa de até 3 anúncios favoritados |
+| Simulador de Auxílios Sociais/Habitacionais | 🟡 **Bônus Futuro (Pós-MVP)** | Cruzamento socioeconômico com bolsas de permanência — reservado para expansões futuras |
+
+> 💡 O simulador de auxílios ficou fora do escopo inicial para garantir uma entrega ágil e consistente do MVP.
+
+O sitemap funcional prevê **10 telas principais**, cobrindo desde onboarding em etapas até o painel administrativo, detalhadas no requisito funcional do projeto (38 RF + 20 RNF, distribuídos em 7 módulos, com priorização MoSCoW).
 
 ---
 
-## 🎨 Referências de UI/UX
+## 🎨 Identidade Visual
 
-O design do RoomMatch utiliza como referência padrões de experiência já consolidados em plataformas digitais.
+### Conceito da marca
 
-| Referência | Conceito aplicado no RoomMatch |
+O isotipo do RoomMatch nasceu da **desconstrução tipográfica** da própria marca: fusão geométrica das letras **"o" (room)** e **"a" (match)** por meio de um laço contínuo com haste de ancoragem central, simbolizando o ponto de encontro entre moradores. Curvas com sorrisos sutis nos arcos reforçam acolhimento, transparência e convivência leve.
+
+### Paleta de cores
+
+| Papel | Nome | Hex | Uso |
+|---|---|---|---|
+| 🟢 Primária | Menthe | `#5EA38F` | Símbolo principal, CTAs primários, indicadores de afinidade |
+| 🟠 Secundária | Nectarine | `#FBB050` | Ponte central, destaques visuais, alertas amigáveis |
+| 🔴 Acento | Salmão | `#F08070` | Interações sociais, tags ativas, engajamento na busca |
+| ⚫ Fundo | Slate Charcoal | `#141D22` | Fundo escuro de alto contraste, conforto visual |
+
+### Tipografia
+
+| Uso | Fonte | Justificativa |
+|---|---|---|
+| Marca & Títulos | **Comfortaa** | Geometria arredondada — transmite modernidade, empatia e acolhimento para o público jovem |
+| Corpo & Interface (UI) | **DM Sans** | Sans-serif limpa e altamente legível em telas mobile, ideal para valores de rateio, filtros e tabelas |
+
+### Referências visuais e de UX
+
+| Referência | Conceito aplicado |
 |---|---|
-| 🏠 **Airbnb** | Busca, filtros progressivos, cards e destaque para fotos |
-| 🏨 **Booking.com** | Transparência na apresentação dos custos |
-| 🔎 **Trivago** | Comparação lado a lado e ranqueamento por múltiplos fatores |
+| 🏠 **Airbnb** | Divulgação progressiva de filtros, agrupamento de tags por categoria, cards visuais com destaque para fotos |
+| 🏨 **Booking.com** | Transparência total de custos direto no card, zero taxas ocultas, badges de flexibilidade contratual |
+| 🔎 **Trivago** | Comparador em colunas de até 3 imóveis, algoritmo que cruza % de afinidade, orçamento e tempo GTFS |
 
-A interface seguirá uma abordagem **mobile-first**, minimalista e responsiva.
+A interface segue abordagem **mobile-first**, minimalista e responsiva.
 
 ---
 
 ## 🛠️ Tecnologias e Arquitetura
 
-> ⚠️ A stack definitiva de desenvolvimento ainda será definida. A especificação atual estabelece os seguintes componentes técnicos:
-
-| Camada | Tecnologia / Diretriz |
+| Camada | Tecnologia definida |
 |---|---|
-| 🌐 Plataforma | Aplicação Web |
-| 📱 Interface | Responsiva · Mobile-first |
-| 🗃️ Banco de Dados | Banco de dados relacional |
+| 🌐 Plataforma | Aplicação Web · Responsiva · Mobile-first |
+| 🎨 Front-end | HTML5, CSS3, JavaScript |
+| ⚙️ Back-end | FastAPI (Python) |
+| 🗃️ Banco de Dados | MySQL (relacional) |
+| 🧪 Testes | Jest |
 | 🗺️ Mapas | OpenStreetMap |
 | 🚌 Mobilidade | GTFS · EMDEC · EMTU |
 | 🔐 Segurança | Hash de senhas com bcrypt ou Argon2 |
@@ -301,21 +277,11 @@ A interface seguirá uma abordagem **mobile-first**, minimalista e responsiva.
 | 🛡️ Privacidade | LGPD |
 | 🔀 Versionamento | Git / GitHub |
 
-### Tecnologias ainda a definir
-
-- Linguagem do back-end
-- Framework do back-end
-- Framework/biblioteca de front-end
-- SGBD relacional
-- Serviço de hospedagem/deploy
-
 ---
 
 ## 🗃️ Modelo de Dados
 
-A plataforma utilizará um modelo relacional para manter a integridade dos dados entre usuários, imóveis, matches, mensagens, rotas e auxílios.
-
-Entre as principais entidades previstas estão:
+Modelo relacional conceitual com **13 entidades**, mantendo integridade entre usuários, imóveis, matches, mensagens, rotas e auxílios.
 
 ```text
 Usuario
@@ -361,20 +327,13 @@ Usuario
 
 ## 🔐 Segurança e Privacidade
 
-Como a plataforma poderá manipular informações pessoais e socioeconômicas, segurança e privacidade fazem parte dos requisitos do projeto.
-
-Entre as medidas previstas estão:
-
-- 🔑 Hash criptográfico de senhas
-- 🔒 Comunicação utilizando TLS
-- 🛡️ Adequação à LGPD
-- 👤 Consentimento para utilização de dados socioeconômicos
+- 🔑 Hash criptográfico de senhas (bcrypt/Argon2)
+- 🔒 Comunicação via TLS, em trânsito e repouso
+- 🛡️ Adequação à **LGPD**, com consentimento explícito e transparência de dados
 - 🗑️ Possibilidade de exclusão dos dados pessoais
 - 👥 Controle de acesso por papéis
 - 💾 Backup periódico do banco de dados
 - 🚫 Sistema de denúncia e bloqueio
-
-Os papéis previstos são:
 
 ```text
 Usuário comum
@@ -387,8 +346,6 @@ Usuário comum
 ---
 
 ## 📁 Estrutura Sugerida do Repositório
-
-Como a stack de desenvolvimento ainda será definida, esta é uma estrutura inicial sugerida:
 
 ```text
 RoomMatch/
@@ -406,34 +363,24 @@ RoomMatch/
 │   ├── diagrams/
 │   └── screenshots/
 │
-├── 📂 frontend/               # Interface da aplicação
+├── 📂 frontend/               # HTML, CSS e JavaScript
 │
-├── 📂 backend/                # API e regras de negócio
+├── 📂 backend/                # API FastAPI e regras de negócio
 │
-├── 📂 database/               # Scripts e modelo do banco
+├── 📂 database/                # Scripts MySQL e modelo relacional
+│
+├── 📂 tests/                  # Testes com Jest
 │
 ├── .gitignore
 ├── README.md
 └── LICENSE
 ```
 
-A estrutura poderá ser adaptada após a definição das tecnologias utilizadas no desenvolvimento.
-
 ---
 
 ## 📚 Documentação
 
-A documentação técnica do projeto será mantida na pasta [`docs/`](./docs).
-
-Ela poderá conter:
-
-- 📋 Especificação do projeto
-- ✅ Requisitos Funcionais
-- ⚙️ Requisitos Não Funcionais
-- 🗃️ Modelo de Dados
-- 🎨 Diretrizes de UI/UX
-- 🏗️ Arquitetura do Sistema
-- 🧪 Estratégia de Testes
+A documentação técnica do projeto é mantida na pasta [`docs/`](./docs) e inclui: especificação do projeto, 38 requisitos funcionais + 20 requisitos não funcionais (7 módulos, priorização MoSCoW), modelo de dados, diretrizes de UI/UX, arquitetura do sistema e estratégia de testes.
 
 ---
 
@@ -441,38 +388,31 @@ Ela poderá conter:
 
 > 🚧 **Projeto em desenvolvimento**
 
-As instruções de instalação e execução serão adicionadas após a definição e implementação da stack tecnológica.
-
-Futuramente, esta seção incluirá:
-
-1. Pré-requisitos
-2. Clone do repositório
-3. Instalação das dependências
-4. Configuração das variáveis de ambiente
-5. Configuração do banco de dados
-6. Inicialização do back-end
-7. Inicialização do front-end
+1. Clonar o repositório
+2. Instalar as dependências do back-end (FastAPI) e do front-end
+3. Configurar as variáveis de ambiente
+4. Configurar o banco de dados MySQL
+5. Inicializar o back-end (`uvicorn`)
+6. Servir o front-end (HTML/CSS/JS)
+7. Rodar a suíte de testes com Jest
 
 ---
 
-## 📈 Requisitos de Qualidade
-
-Algumas metas definidas para a plataforma:
+## 📈 Requisitos de Qualidade (ISO/IEC 25010)
 
 | Requisito | Meta |
 |---|---|
 | ⚡ Carregamento dos cards | Até **2 segundos** em rede móvel 4G |
-| 🗺️ Cálculo de rota | Até **5 segundos** |
+| 🗺️ Cálculo de rota GTFS | Até **5 segundos**, com cache de rotas frequentes |
+| ⏱️ Onboarding + primeira busca | Até **5 minutos** |
 | 👥 Usuários simultâneos | Pelo menos **500** |
 | 🟢 Disponibilidade | Mínimo de **99%** em horário comercial |
-| ♿ Acessibilidade | **WCAG 2.1 AA** |
+| ♿ Acessibilidade | **WCAG 2.1 AA** de contraste e navegabilidade |
 | 🌐 Navegadores | Chrome, Firefox, Edge e Safari |
 
 ---
 
 ## 🧩 Viabilidade do Projeto
-
-O desenvolvimento será realizado de forma modular, permitindo que os principais componentes sejam implementados e testados separadamente.
 
 ```text
 RoomMatch
@@ -480,29 +420,35 @@ RoomMatch
 ├── 👤 Cadastro e Perfil
 ├── 💚 Matching
 ├── 🏠 Mural de Imóveis
-├── 🗺️ Mobilidade
-├── 🧮 Auxílios Habitacionais
-├── 💬 Comunicação
-└── 🛡️ Administração
+├── 🗺️ Mobilidade (GTFS)
+├── 💬 Chat & Comparador
+├── 🛡️ Administração
+└── 🧮 Auxílios Habitacionais (pós-MVP)
 ```
 
-Essa divisão permite priorizar inicialmente as funcionalidades essenciais e expandir a plataforma de forma incremental.
+Desenvolvimento modular, priorizando as funcionalidades essenciais do MVP e expandindo a plataforma de forma incremental.
+
+---
+
+## 🔍 Análise SWOT
+
+| | Interno | Externo |
+|---|---|---|
+| **Positivo** | **Forças:** uso de dados abertos (GTFS), diferenciação por matching social + rateio, redução do tempo de busca, maior filtro de acesso aos anúncios | **Oportunidades:** parcerias com faculdades e polos tecnológicos da RMC, indicação por programas de estágio/trainee, parceria com empresas de transporte público |
+| **Negativo** | **Fraquezas:** dependência de massa crítica de usuários para efeito de rede, omissão de informações pessoais no cadastro | **Ameaças:** anúncios fraudulentos em redes concorrentes informais, concorrência de grupos de WhatsApp/Telegram/Instagram, rigor exigido pela LGPD |
 
 ---
 
 ## 🔮 Próximas Etapas
 
-As próximas etapas previstas para o projeto incluem:
+Ações prioritárias do grupo de trabalho:
 
-- [ ] Desenvolvimento dos wireframes de alta fidelidade
-- [ ] Definição da identidade visual
-- [ ] Criação da logo do RoomMatch
-- [ ] Definição da stack tecnológica
-- [ ] Criação do Diagrama Entidade-Relacionamento (DER)
+- [ ] **Wireframes (Figma):** desenhar protótipos de alta fidelidade mobile-first
+- [ ] **Modelo Relacional:** validar entidades, chaves e relacionamentos do banco
+- [ ] **Integração GTFS:** mapear linhas da EMDEC/EMTU para testes de rotas
 - [ ] Validação dos requisitos com usuários do público-alvo
 - [ ] Desenvolvimento do MVP
-- [ ] Testes de usabilidade
-- [ ] Testes de segurança
+- [ ] Testes de usabilidade e de segurança
 - [ ] Deploy da aplicação
 
 ---
@@ -526,14 +472,14 @@ As próximas etapas previstas para o projeto incluem:
 
 O **RoomMatch não atua como imobiliária** e não garante a segurança jurídica de contratos de aluguel firmados entre os usuários.
 
-O simulador de auxílios possui caráter exclusivamente informativo e seus resultados devem ser confirmados junto aos órgãos responsáveis.
+O simulador de auxílios (bônus futuro) possui caráter exclusivamente informativo e seus resultados devem ser confirmados junto aos órgãos responsáveis.
 
 ---
 
 <div align="center">
 
   <sub>
-    🏠 RoomMatch · Projeto Integrador Extensionista<br/>
+    🏠 RoomMatch · Projeto Integrador Extensionista · Terceiro Setor<br/>
     Ciência de Dados e Inteligência Artificial · PUC-Campinas · 2026
   </sub>
 
