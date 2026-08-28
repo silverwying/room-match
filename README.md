@@ -457,12 +457,12 @@ Ações prioritárias do grupo de trabalho:
 
 <div align="center">
 
-| | Nome | GitHub |
-|---|---|---|
-| 👩‍💻 | Nome do integrante | [@usuario](https://github.com/usuario) |
-| 👨‍💻 | Nome do integrante | [@usuario](https://github.com/usuario) |
-| 👩‍💻 | Nome do integrante | [@usuario](https://github.com/usuario) |
-| 👨‍💻 | Nome do integrante | [@usuario](https://github.com/usuario) |
+| | Nome | GitHub | LinkedIn |
+|---|---|---|---|
+| 👩‍💻 | Julia Leandro | [@leasju](https://github.com/leasju) | [Perfil](https://linkedin.com/in/juliasleandro) |
+| 👩‍💻 | Lavínia Oliveira | [@LaviniaOliveira-2007](https://github.com/LaviniaOliveira-2007) | [Perfil](https://linkedin.com/in/laviniaoliveiras) |
+| 👩‍💻 | Alice Pasolini | [@paso-lini](https://github.com/paso-lini) | [Perfil](https://linkedin.com/in/aliceaguiarp) |
+| 👨‍💻 | Enzo Guerra | [@vooort](https://github.com/vooort) | [Perfil](https://linkedin.com/in/enzo-guerra-b16110275) |
 
 </div>
 
