@@ -1,4 +1,5 @@
 from sqlalchemy import Boolean, Column, Date, DateTime, ForeignKey, Integer, String, Text
+from sqlalchemy.dialects.postgresql import ARRAY
 from sqlalchemy.sql import func
 
 from app.core.database import Base
@@ -16,12 +17,12 @@ class Usuario(Pessoa):
     telefone = Column(String(20))
     data_nascimento = Column(Date)
     foto_perfil = Column(String(255))
-    data_cadastro = Column(DateTime, server_default=func.now())
+    data_cadastro = Column(DateTime(timezone=True), server_default=func.now())
     bio = Column(Text)
     cidade_atual = Column(String(100))
     status_verificacao = Column(Boolean, default=False)
-    # Lista de tags separadas por vírgula (ex: "Pet Friendly,Silêncio Noturno").
-    # Simplificação em relação a uma tabela Tag separada - ver observações no chat.
-    tags_convivencia = Column(Text)
+    # Lista de tags nativa do Postgres (ex: ["Pet Friendly", "Silêncio Noturno"]),
+    # em vez de uma string CSV - ver observações no chat.
+    tags_convivencia = Column(ARRAY(String))
 
     __mapper_args__ = {"polymorphic_identity": "usuario"}

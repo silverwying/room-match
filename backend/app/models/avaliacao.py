@@ -13,7 +13,7 @@ class Avaliacao(Base):
     id_pessoa = Column(Integer, ForeignKey("pessoas.id_pessoa"), nullable=False)
     nota = Column(Integer, nullable=False)
     comentario = Column(Text)
-    data_avaliacao = Column(DateTime, server_default=func.now())
+    data_avaliacao = Column(DateTime(timezone=True), server_default=func.now())
 
     imovel = relationship("Imovel", backref="avaliacoes")
     pessoa = relationship("Pessoa")

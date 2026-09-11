@@ -1,11 +1,8 @@
 from datetime import datetime
-
 from pydantic import BaseModel, ConfigDict
-
 
 class ConversaCreate(BaseModel):
     id_post: int
-
 
 class ConversaOut(BaseModel):
     id_conversa: int

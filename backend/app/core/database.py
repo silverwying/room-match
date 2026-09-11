@@ -3,8 +3,6 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 
 from app.core.config import settings
 
-# create_engine não conecta no banco imediatamente - a conexão é "preguiçosa"
-# (lazy) e só acontece quando alguém de fato executa uma query.
 engine = create_engine(settings.database_url, pool_pre_ping=True)
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)

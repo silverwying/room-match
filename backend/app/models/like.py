@@ -11,7 +11,7 @@ class Like(Base):
     id_like = Column(Integer, primary_key=True, index=True)
     id_post = Column(Integer, ForeignKey("posts.id_post"), nullable=False)
     id_locatario = Column(Integer, ForeignKey("locatarios.id_locatario"), nullable=False)
-    data_like = Column(DateTime, server_default=func.now())
+    data_like = Column(DateTime(timezone=True), server_default=func.now())
 
     post = relationship("Post", backref="likes")
     locatario = relationship("Locatario", backref="likes")

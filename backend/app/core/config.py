@@ -2,15 +2,12 @@ from pathlib import Path
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-# backend/app/core/config.py -> sobe 3 níveis até a raiz do repositório,
-# onde está o .env. Assim funciona independente de onde o comando é rodado.
 ENV_FILE = Path(__file__).resolve().parents[3] / ".env"
-
 
 class Settings(BaseSettings):
     db_host: str = "localhost"
-    db_port: int = 3306
-    db_user: str = "root"
+    db_port: int = 5432
+    db_user: str = "postgres"
     db_password: str = ""
     db_name: str = "roommatch"
 
@@ -23,9 +20,8 @@ class Settings(BaseSettings):
     @property
     def database_url(self) -> str:
         return (
-            f"mysql+pymysql://{self.db_user}:{self.db_password}"
+            f"postgresql+psycopg2://{self.db_user}:{self.db_password}"
             f"@{self.db_host}:{self.db_port}/{self.db_name}"
         )
-
 
 settings = Settings()
