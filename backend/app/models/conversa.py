@@ -4,7 +4,6 @@ from sqlalchemy.sql import func
 
 from app.core.database import Base
 
-
 class Conversa(Base):
     __tablename__ = "conversas"
 
@@ -14,5 +13,6 @@ class Conversa(Base):
     data_criacao = Column(DateTime, server_default=func.now())
     status_conversa = Column(String(20), default="ativa")
 
-    locatario = relationship("Locatario", backref="conversas")
+    locatario = relationship("Locatario", backref="conversas") 
     post = relationship("Post", backref="conversas")
+             
