@@ -1,0 +1,15 @@
+# Variáveis de ambiente (segredos locais - nunca commitar)
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (frontend)
+node_modules/
+
+# IDE
+.vscode/
+.idea/
