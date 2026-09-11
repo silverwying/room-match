@@ -1,13 +1,10 @@
 from datetime import date, time
-
 from pydantic import BaseModel, ConfigDict
-
 
 class VisitaCreate(BaseModel):
     id_imovel: int
     data_agendada: date
     horario: time
-
 
 class VisitaOut(BaseModel):
     id_visita: int

@@ -1,7 +1,5 @@
 from typing import Optional
-
 from pydantic import BaseModel, ConfigDict
-
 
 class ImovelBase(BaseModel):
     valor_aluguel: float
@@ -14,10 +12,8 @@ class ImovelBase(BaseModel):
     area_m2: Optional[float] = None
     descricao: Optional[str] = None
 
-
 class ImovelCreate(ImovelBase):
     pass
-
 
 class ImovelOut(ImovelBase):
     id_imovel: int

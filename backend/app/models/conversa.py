@@ -10,7 +10,7 @@ class Conversa(Base):
     id_conversa = Column(Integer, primary_key=True, index=True)
     id_locatario = Column(Integer, ForeignKey("locatarios.id_locatario"), nullable=False)
     id_post = Column(Integer, ForeignKey("posts.id_post"), nullable=False)
-    data_criacao = Column(DateTime, server_default=func.now())
+    data_criacao = Column(DateTime(timezone=True), server_default=func.now())
     status_conversa = Column(String(20), default="ativa")
 
     locatario = relationship("Locatario", backref="conversas") 

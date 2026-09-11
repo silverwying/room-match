@@ -1,8 +1,6 @@
 from datetime import date, datetime
-from typing import Optional
-
+from typing import List, Optional
 from pydantic import BaseModel, ConfigDict, EmailStr
-
 
 class UsuarioBase(BaseModel):
     nome: str
@@ -12,12 +10,10 @@ class UsuarioBase(BaseModel):
     foto_perfil: Optional[str] = None
     bio: Optional[str] = None
     cidade_atual: Optional[str] = None
-    tags_convivencia: Optional[str] = None
-
+    tags_convivencia: Optional[List[str]] = None
 
 class UsuarioCreate(UsuarioBase):
     senha: str
-
 
 class UsuarioOut(UsuarioBase):
     id_usuario: int

@@ -13,7 +13,7 @@ class Post(Base):
     id_locador = Column(Integer, ForeignKey("locadores.id_locador"), nullable=False)
     titulo = Column(String(150), nullable=False)
     descricao = Column(Text)
-    data_publicacao = Column(DateTime, server_default=func.now())
+    data_publicacao = Column(DateTime(timezone=True), server_default=func.now())
     status_anuncio = Column(String(20), default="ativo")
 
     imovel = relationship("Imovel", backref="posts")

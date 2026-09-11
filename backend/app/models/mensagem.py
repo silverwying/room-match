@@ -12,7 +12,7 @@ class Mensagem(Base):
     id_conversa = Column(Integer, ForeignKey("conversas.id_conversa"), nullable=False)
     id_remetente = Column(Integer, ForeignKey("pessoas.id_pessoa"), nullable=False)
     conteudo = Column(Text, nullable=False)
-    data_envio = Column(DateTime, server_default=func.now())
+    data_envio = Column(DateTime(timezone=True), server_default=func.now())
     status_leitura = Column(Boolean, default=False)
 
     conversa = relationship("Conversa", backref="mensagens")

@@ -3,7 +3,6 @@ from sqlalchemy import Column, Date, ForeignKey, Integer, String
 from app.core.database import Base
 from app.models.pessoa import Pessoa
 
-
 class Administrador(Pessoa):
     __tablename__ = "administradores"
 

@@ -1,11 +1,8 @@
 from datetime import datetime
-
 from pydantic import BaseModel, ConfigDict
-
 
 class LikeCreate(BaseModel):
     id_post: int
-
 
 class LikeOut(BaseModel):
     id_like: int
