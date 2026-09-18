@@ -1,0 +1,37 @@
+:root {
+  /* Cores - Room Match (extraído do Figma) */
+  --color-primary: #5ea38f;
+  --color-secondary: #fbb050;
+  --color-accent: #f08070;
+  --color-background: #141d22;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f4f6f7;
+  --color-border: #e2e8eb;
+  --color-text-primary: #141d22;
+  --color-text-muted: #4a5568;
+  --color-text-subtle: #94a3ad;
+  --color-neutral: #757575;
+
+  /* Tipografia */
+  --font-heading: 'Comfortaa', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  --fs-hero: 26px;
+  --fs-h2: 18px;
+  --fs-card-title: 14px;
+  --fs-body: 13px;
+  --fs-small: 12px;
+  --fs-xsmall: 11px;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Espaçamento / raio */
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-pill: 20px;
+  --radius-tag: 16px;
+}
