@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Room Match - Encontre seu Roommate Ideal</title>
+    <title>Room Match</title>
     <style>
         * {
             margin: 0;
@@ -20,144 +20,15 @@
             justify-content: center;
         }
 
-        .container {
-            text-align: center;
-            background: rgba(255, 255, 255, 0.95);
-            padding: 60px 40px;
-            border-radius: 20px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            max-width: 600px;
-            width: 90%;
-        }
-
         h1 {
-            color: #333;
-            margin-bottom: 20px;
-            font-size: 2.5em;
-        }
-
-        .subtitle {
-            color: #666;
-            margin-bottom: 40px;
-            font-size: 1.1em;
-            line-height: 1.6;
-        }
-
-        .status {
-            display: inline-block;
-            background: #4CAF50;
             color: white;
-            padding: 10px 20px;
-            border-radius: 25px;
-            margin-bottom: 30px;
-            font-weight: bold;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 15px 40px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            text-decoration: none;
-            border-radius: 50px;
-            font-size: 1.1em;
-            font-weight: bold;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: none;
-            cursor: pointer;
-            margin: 10px;
-        }
-
-        .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
-        }
-
-        .btn-secondary {
-            background: #f0f0f0;
-            color: #333;
-        }
-
-        .btn-secondary:hover {
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-        }
-
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-            gap: 20px;
-            margin-top: 40px;
-            text-align: left;
-        }
-
-        .feature {
-            padding: 20px;
-            background: #f9f9f9;
-            border-radius: 10px;
-            border-left: 4px solid #667eea;
-        }
-
-        .feature h3 {
-            color: #667eea;
-            margin-bottom: 10px;
-        }
-
-        .feature p {
-            color: #666;
-            font-size: 0.9em;
-        }
-
-        .github-status {
-            margin-top: 30px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-            color: #999;
-            font-size: 0.9em;
+            font-size: 3em;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>🏠 Room Match</h1>
-
-        <div class="status">✅ GitHub Pages Funcionando</div>
-
-        <p class="subtitle">
-            Encontre seu roommate ideal! Conecte-se com pessoas que compartilham dos mesmos valores e preferências de convivência.
-        </p>
-
-        <div>
-            <button class="btn" onclick="alert('Botão de teste funcionando! 🎉')">
-                🚀 Começar Agora
-            </button>
-            <a href="https://github.com/JuliaLeandro/room-match" class="btn btn-secondary">
-                📚 Ver Repositório
-            </a>
-        </div>
-
-        <div class="features">
-            <div class="feature">
-                <h3>🤝 Conexão</h3>
-                <p>Encontre pessoas compatíveis</p>
-            </div>
-            <div class="feature">
-                <h3>✨ Perfil</h3>
-                <p>Crie seu perfil personalizado</p>
-            </div>
-            <div class="feature">
-                <h3>💬 Chat</h3>
-                <p>Converse com matches</p>
-            </div>
-        </div>
-
-        <div class="github-status">
-            <p>🌐 Página servida com sucesso via GitHub Pages</p>
-            <p>Última atualização: <span id="date"></span></p>
-        </div>
-    </div>
-
-    <script>
-        document.getElementById('date').textContent = new Date().toLocaleDateString('pt-BR');
-    </script>
+    <h1>Bem vindo ao Room Match</h1>
 </body>
 </html>
